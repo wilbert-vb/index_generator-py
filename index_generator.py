@@ -40,7 +40,7 @@ def process_list(titles_txt):
     line = ''
     lines = ['']
 
-    with open(titles_txt, encoding="utf-8") as f_handle:
+    with open(titles_txt, encoding="ascii" errors='ignore') as f_handle:
         lines = f_handle.readlines()
     for line in lines:
         colon_pos = line.find(':')
