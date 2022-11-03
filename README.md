@@ -1,6 +1,6 @@
 # index_generator-py
 
-(you need to download all *.py svripts)
+(you need to download all *.py scripts)
 
 This python3 solution generates index.html tables based on all items in a directory or on a text file with url and subject information.
 
