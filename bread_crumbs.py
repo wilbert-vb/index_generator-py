@@ -6,10 +6,10 @@ from os import getcwd
 
 DATE_FORMAT = "%b %d %Y"
 current_directory = getcwd()
-if 'www.asstr' in current_directory:
-    DOCUMENT_ROOT = '/srv/html/www.asstr/'
-elif 'www.vanbakel' in current_directory:
-    DOCUMENT_ROOT = '/srv/html/www.vanbakel/'
+if '%%main directory%%' in current_directory:   # adjust %%main directory%% to your local structure
+    DOCUMENT_ROOT = '/srv/html/%%main directory%%/'
+elif '%%test directory%%' in current_directory:
+    DOCUMENT_ROOT = '/srv/html/%%test directory%%/'
 else:
     DOCUMENT_ROOT = current_directory
 
