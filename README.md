@@ -13,8 +13,8 @@ Example:
 
 ##### titles.txt:
 
-    [titles.txt](/images/Screenshot%202022-11-03%20at%2010.31.15.png)
+![titles.txt](https://github.com/wilbert-vb/index_generator-py/blob/main/images/titles-txt.png "titles.txt")
 
-##### Result:
+##### index.html:
 
-    [index.html](/images/Screenshot%202022-11-03%20at%2010.29.57.png)
+![index.html](https://github.com/wilbert-vb/index_generator-py/blob/main/images/index-html.png "index.html")
