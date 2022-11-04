@@ -18,7 +18,7 @@ ignore_items = ['.', '..', 'css', 'favicon.ico', 'images',
     'index.html', 'index-php.html', 'index.php',
     'js', 'ls-lRt', '.message', '.message.ftp.txt',
     'scripts', 'theme', FILE_WITH_SUBJECTLINES]
-SERVER_NAME = 'https://www.vanbakel.online'
+SERVER_NAME = 'https://%%URL%%'
 STYLE_SHEET = '/css/index-generator.css'
 TITLES_TXT = 'titles.txt'
 
