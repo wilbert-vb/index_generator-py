@@ -6,10 +6,10 @@ from os import getcwd
 
 DATE_FORMAT = "%b %d %Y"
 current_directory = getcwd()
-if 'www.asstr' in current_directory:
-    DOCUMENT_ROOT = '/srv/html/www.asstr/'
-elif 'www.vanbakel' in current_directory:
-    DOCUMENT_ROOT = '/srv/html/www.vanbakel/'
+if 'www.production' in current_directory:
+    DOCUMENT_ROOT = '/srv/html/%production%/'
+elif 'www.test' in current_directory:
+    DOCUMENT_ROOT = '/srv/html/www.%test%/'
 else:
     DOCUMENT_ROOT = current_directory
 
@@ -18,7 +18,7 @@ ignore_items = ['.', '..', 'css', 'favicon.ico', 'images',
     'index.html', 'index-php.html', 'index.php',
     'js', 'ls-lRt', '.message', '.message.ftp.txt',
     'scripts', 'theme', FILE_WITH_SUBJECTLINES]
-SERVER_NAME = 'https://%%URL%%'
+SERVER_NAME = 'https://%test%'
 STYLE_SHEET = '/css/index-generator.css'
 TITLES_TXT = 'titles.txt'
 
